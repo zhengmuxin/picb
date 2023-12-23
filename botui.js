@@ -4489,7 +4489,7 @@ function bot_ui_ini() {
     }).then(function() {
         botui.message.add({
             delay: 1100,
-            content: "这里是 likepoems"
+            content: "这里是 芝麻馅_"
         }).then(function() {
             botui.message.add({
                 delay: 1100,
@@ -4528,27 +4528,27 @@ function bot_ui_ini() {
       , secondpart = function() {
         botui.message.add({
             delay: 1500,
-            content: "于2022年6月毕业于四川大学锦城学院"
+            content: "于2023年6月毕业于广州大学"
         }).then(function() {
             botui.message.add({
                 delay: 1500,
-                content: "所学专业是软件工程，方向是web前端…"
+                content: "所学专业是软件工程，方向是Java后端…"
             }).then(function() {
                 botui.message.add({
                     delay: 1200,
-                    content: "由于web前端非常需要Coder嘛,所以经常会阅读一些有关的文章来提高对代码的兴趣"
+                    content: "由于程序员非常需要天天up嘛,所以经常会阅读一些有关的文章来提高代码能力"
                 }).then(function() {
                     botui.message.add({
                         delay: 1500,
-                        content: "熟练使用js,css3,html5等语言，框架是vue、node和react，偶尔使用一下angular"
+                        content: "Java工程师当然是熟练使用Java等语言，框架是Spring Boot、Mybatis啦，数据库用过MySQL，Oracle..."
                     }).then(function() {
                         botui.message.add({
                             delay: 1500,
-                            content: "课堂上还学习了计算机操作系统,python,计算机网络等等"
+                            content: "课堂上还学习了计算机操作系统,数据结构,计算机网络等等"
                         }).then(function() {
                             botui.message.add({
                                 delay: 1800,
-                                content: "我的爱好是动漫,小说,杂志等等"
+                                content: "我的爱好是动漫,阅读等等"
                             }).then(function() {
                                 botui.action.button({
                                     delay: 1100,
@@ -4569,7 +4569,7 @@ function bot_ui_ini() {
       , thirdpart = function() {
         botui.message.add({
             delay: 1E3,
-            content: "基于wordpress搭建的~"
+            content: "基于Hexo搭建的，网站主题是Butterfly，特别感谢主题作者大佬JerryC呢~"
         }).then(function() {
             botui.action.button({
                 delay: 1500,
@@ -4585,16 +4585,16 @@ function bot_ui_ini() {
       , fourthpart = function() {
         botui.message.add({
             delay: 1E3,
-            content: "因为对blog有种执念… "
+            content: "因为这不是很coooool吗… "
         }).then(function() {
             botui.message.add({
                 delay: 1100,
-                content: "而且我真的喜欢框架和一些技术！"
+                content: "虽然我是后端，没法把博客做得像前端大佬一样炫酷爆炸帅，但是我个自己小小博客还是很开心！"
             }).then(function() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "以前自己单独写过吗？(ง •_•)ง",
+                        text: "你是哪里人呢？(ง •_•)ง",
                         value: "have-you-written-it-alone-before?"
                     }]
                 }).then(function(a) {
@@ -4606,11 +4606,11 @@ function bot_ui_ini() {
       , fifthpart = function() {
         botui.message.add({
             delay: 1E3,
-            content: "emmmm，看这个博客的友情链接你就知道了=.= 前台和后台的页面都能从这里访问到。。"
+            content: "emmmm，我是广东潮汕人，欢迎来我家乡玩哦。。"
         }).then(function() {
             botui.message.add({
                 delay: 1600,
-                content: "那么，仔细看看我的博客吧？ ^_^"
+                content: "那么，仔细看看👁👁我的博客吧？ ^_^"
             })
         })
     }
